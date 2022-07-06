@@ -1,4 +1,4 @@
 # devOps
 
 ### The content
-Person scripts to ease daily task
+Personal scripts to ease daily task
