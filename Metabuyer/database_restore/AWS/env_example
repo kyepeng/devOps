@@ -1,0 +1,27 @@
+# BACKUP PATHS
+# Sunway
+# APPROVAL_BACKUP_S3_URI=s3://bucket/Live/Live-Approval-${DATE}.sql
+# BIFROST_BACKUP_S3_URI=s3://bucket/Live/Live-Bifrost-${DATE}.sql
+# MONGO_BACKUP_S3_URI=s3://bucket/Live/tinyData/Live-Tiny-${DATE}.tar.bz2
+
+# GenP
+APPROVAL_BACKUP_S3_URI=s3://bucket//Live/ApprovalEngine/Live-Approval-${DATE}.sql
+BIFROST_BACKUP_S3_URI=s3://bucket//Live/Bifrost/Live-Bifrost-${DATE}.sql
+MONGO_BACKUP_S3_URI=s3://bucket//Live/MongoDB/tinyData/Live-Tiny-${DATE}.tar.bz2
+
+# MONGO
+MONGO_HOST=localhost
+MONGO_PORT=27017
+MONGO_USERNAME=
+MONGO_PASSWORD=
+MONGO_AUTH_DATABASE=
+MONGO_DATABASE=metabuyer
+MONGO_BACKUP_FOLDER=genp_metabuyer_production
+NUM_PARALLEL_COLLECTIONS=2
+
+# MYSQL
+MYSQL_HOST_IP=127.0.0.1
+MYSQL_USER=root
+MYSQL_PASSWORD=root
+MYSQL_APPROVAL_DATABASE=approval_engine
+MYSQL_BIFROST_DATABASE=bifrost
